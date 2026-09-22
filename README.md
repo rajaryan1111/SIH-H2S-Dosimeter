@@ -168,6 +168,8 @@ python model_evaluator.py      # diagnostic plots (needs a trained model + datas
 python live_ai_demonstrator.py # narrated walkthrough; POSTs to the backend if one is running
 
 # with real labelled strip photos:
+
+[![CI](https://github.com/rajaryan1111/SIH-H2S-Dosimeter/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/rajaryan1111/SIH-H2S-Dosimeter/actions/workflows/ci.yml)
 python dataset_builder.py --images_dir ./sample_images --output datasets/dataset.csv
 python model_trainer.py --csv datasets/dataset.csv
 ```
