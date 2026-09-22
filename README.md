@@ -387,3 +387,8 @@ Verified against the repository as of this commit:
 **College**: Dayananda Sagar College of Engineering (DSCE)
 **Competition**: Smart India Hackathon 2026
 **Problem Statement**: SIH26118
+
+
+---
+
+**Project documentation:** [Contributing](CONTRIBUTING.md) · [Security](SECURITY.md)
