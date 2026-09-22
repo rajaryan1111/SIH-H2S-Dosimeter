@@ -140,8 +140,7 @@ python seed.py                 # optional: WIPES the DB and loads demo workers/r
 uvicorn main:app --reload      # -> http://localhost:8000   (Swagger UI at /docs)
 ```
 
-Dev login: **`admin` / `admin123`**. After seeding, **`officer1` / `officer123`** also exists as a non-admin
-officer. These are development defaults defined in `seed.py` and the startup hook in `main.py` — change them
+Demo credentials are seeded by `seed.py` for local development only; do not reuse them in production.
 before any real deployment.
 
 ### 2. Dashboard — `software/dashboard/`
