@@ -15,6 +15,14 @@ lighting correction and an ML regression to quantify the **cumulative dose in pp
 Worker identity, shift data and exposure history are logged to a backend and surfaced on an admin dashboard for
 occupational-health compliance reporting (DGMS / OISD).
 
+### Engineering highlights
+
+- **Computer vision:** ROI detection, RGB → CIE Lab conversion, CIE ΔE2000 and reference-card lighting correction.
+- **ML:** Random Forest regression for cumulative H₂S dose estimation.
+- **Backend:** FastAPI + SQLAlchemy with worker, reading, alert and reporting workflows.
+- **Validation:** 49/49 API tests and 16/16 offline checks are documented in the repository.
+- **Honest scope:** the current ML evaluation uses synthetic/physics-based data; real-hardware validation remains a project dependency.
+
 The detection chemistry:
 
 ```
